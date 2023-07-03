@@ -1,0 +1,47 @@
+Cómo recorrí una lista y saqué los números positivos sin despeinarme mucho
+Jose Manuel
+JoseLopera
+Hola, hola ¿Sabes? tú y yo tenemos algo en común y es que ¡No queremos parar de aprender! y por eso elegimos a Platzi como la mejor opción.
+Quiero mostrarte en un pequeño tutorial “Cómo recorrí una lista y saqué los números positivos sin despeinarme mucho”
+
+Primer paso: Vamos a crear una lista bien divertida de número positivos y negativos
+
+my_list = [1, -1, 2, -2, 3, -3, 4, -4]
+
+Nos quedó muy chévere ¿Verdad?
+
+Segundo paso: Vamos a crear una nueva lista, pero la dejaremos vacía y la llenaremos más adelante
+
+new_list = [ ]
+
+Wow! ya te estás volviendo un súper programador. Como puedes ver las listas las diferenciamos porque sus elementos quedan dentro de [ ]
+
+Tercer paso: Vamos a ponerle más sabor a la cosa, crearemos un ciclo for para recorrer la lista ¡muero de diversión! y preguntaremos por medio de un if si cada elemento de la lista es mayor a cero, en otras palabras si el elemento es positivo
+
+foriin my_list:
+  ifi > 0:
+
+Cuarto paso: Ahora de una forma muy creativa y práctica, vamos a decir que la nueva lista que no habíamos llenado, llamada: new_list = [ ] la vamos a llenar solo con los números positivos que tiene my_list mientras cambia una por una de posición en la lista. Entonces esta parte del código completando el anterior, quedaría así:
+
+foriin my_list:
+  ifi > 0:
+    new_list += [i]
+
+Quinto paso: Por último vamos a imprimir la nueva lista de la siguiente manera:
+
+print(new_list)
+
+Quedando así el código completo:
+
+my_list = [1, -1, 2, -2, 3, -3, 4, -4]
+new_list = []
+
+foriin my_list:
+  ifi > 0:
+    new_list += [i]
+
+print(new_list)
+
+Te invito a que hagas tu propio código recorriendo una lista y creando una nueva con algunos elementos de la inicial y también te invito a que ¡Nunca pares de aprender!
+
+Hasta pronto.
